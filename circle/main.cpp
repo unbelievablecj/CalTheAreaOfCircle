@@ -1,4 +1,5 @@
 #include<iostream>
+#include<limits>
 #include"circle.h"
 using namespace std;
 int main() {
@@ -11,7 +12,7 @@ int main() {
 		
 		cin.clear();
 		cin.sync();
-		cin.ignore();
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
 		cin >> r;
 	}
 	cout << "the area is " << CalArea(r)<<endl;
