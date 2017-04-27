@@ -1,6 +1,6 @@
-#define pi 3.14
-extern double CalArea(double r) { //r:Ô²ĞÎ°ë¾¶£¬·µ»ØÃæ»ı
-	//s Ãæ»ı
+ï»¿#define pi 3.14
+extern double CalArea(double r) { //r:åœ†å½¢åŠå¾„ï¼Œè¿”å›é¢ç§¯
+	//s é¢ç§¯
 	double s = pi*r*r;
 	return s;
 }
